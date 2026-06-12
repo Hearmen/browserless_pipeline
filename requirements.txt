@@ -1,0 +1,6 @@
+# browserless_pipeline runtime dependencies (Python)
+# Plus: Node.js (for node_engine/getvdata_cli.js — the headless vData VM).
+opencv-python-headless>=4.5
+numpy>=1.21
+# requests is OPTIONAL: only gap_detector's download_image()/*_from_urls helpers
+# use it; the pipeline itself fetches images via stdlib urllib in http_client.py.
