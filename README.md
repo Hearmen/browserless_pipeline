@@ -1,5 +1,7 @@
 # browserless_pipeline — full-chain urlsec.qq.com URL-safety checker
 
+> 🌐 [中文版本](README.zh-CN.md)
+
 One orchestrator that runs the entire urlsec.qq.com check flow for a URL and returns
 the safety verdict:
 
